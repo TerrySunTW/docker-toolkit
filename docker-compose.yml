@@ -5,4 +5,4 @@ services:
     build:
       context: .
       dockerfile: ./dockerfile
-    image: docker-toolkit:latest
+    image: terrysun/docker-toolkit:latest
