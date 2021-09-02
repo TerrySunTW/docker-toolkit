@@ -1,0 +1,8 @@
+version: "2"
+services:
+  nginx:
+    container_name: docker-toolkit
+    build:
+      context: .
+      dockerfile: ./dockerfile
+    image: docker-toolkit:latest
